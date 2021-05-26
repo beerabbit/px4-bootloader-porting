@@ -2,7 +2,9 @@
 px4 bootloader porting project
 
 
-1. Nuttx Tool chain 설치해야함 (Checked libopencm3 submodule, correct version found 에러)
-  https://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html
+1. for get bootsubmodule
+  git submodule sync --recursive
+  git submodule update --init --recursive
+  make
 
 
